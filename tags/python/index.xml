@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on wik-i-pedia</title>
+    <link>http://wik-i-pedia.com/tags/python/</link>
+    <description>Recent content in python on wik-i-pedia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Jul 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://wik-i-pedia.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>python-graphviz: A New Way of Looking At The Data of Things</title>
+      <link>http://wik-i-pedia.com/posts/2014-07-13-a-new-way-of-looking-at-the-data-of-things/</link>
+      <pubDate>Sun, 13 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2014-07-13-a-new-way-of-looking-at-the-data-of-things/</guid>
+      <description>&lt;p&gt;At my new job (and some of my personal projects) I found myself looking at a ton of text. Upon reviewing all this data, which could be anything from json, csv or just plain text, my eyes tend to bleed. It can quite quickly become confusion as to which data I’ve looked at or how that data relates to everything else.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Using NSIS to create an auto installer</title>
+      <link>http://wik-i-pedia.com/posts/2014-03-14-using-nsis-to-create-auto-installers/</link>
+      <pubDate>Fri, 14 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2014-03-14-using-nsis-to-create-auto-installers/</guid>
+      <description>&lt;p&gt;NSIS (Nullsoft Scriptable Install System) is a professional open source system to create Windows installers.  You can download NSIS from the main website &lt;a href=&#34;http://nsis.sourceforge.net/Main_Page&#34;&gt;HERE&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Why yes, I would like that as a kindle book</title>
+      <link>http://wik-i-pedia.com/posts/2013-10-09-i-would-like-that-as-a-kindle-book/</link>
+      <pubDate>Wed, 09 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2013-10-09-i-would-like-that-as-a-kindle-book/</guid>
+      <description>&lt;p&gt;I got a bit tired of not finding that one IT book I wanted in kindle format. The following script will go thought Amazon&amp;rsquo;s IT Books and auto check the link to request a kindle version. Warning, This was a quick and dirty solution. Your mileage may vary.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>gitrecon</title>
+      <link>http://wik-i-pedia.com/posts/2013-09-10-gitrecon/</link>
+      <pubDate>Tue, 10 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2013-09-10-gitrecon/</guid>
+      <description>&lt;p&gt;I was on &lt;a href=&#34;http://www.concise-courses.com/infosec/gitdigger-creating-useful-wordlists-from-github/&#34;&gt;hacker hotshots&lt;/a&gt; today. I was asked: Will any of the code make it into Kali?. It didn&amp;rsquo;t even occur to me that some of the code I&amp;rsquo;m using would be useful to others. After a few moments of thought &amp;lsquo;gitrecon&amp;rsquo; was born.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Splinter Test Framework</title>
+      <link>http://wik-i-pedia.com/posts/2013-07-07-splinter-test-framework/</link>
+      <pubDate>Sun, 07 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2013-07-07-splinter-test-framework/</guid>
+      <description>&lt;p&gt;Splinter is an open source tool for testing web applications using Python. It lets you automate browser actions, such as visiting URLs and interacting with their itemcts..&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

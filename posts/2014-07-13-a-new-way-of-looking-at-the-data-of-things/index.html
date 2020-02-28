@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>python-graphviz: A New Way of Looking At The Data of Things - wik-i-pedia</title>
+  <meta name="description" content="At my new job (and some of my personal projects) I found myself looking at a ton of text. Upon reviewing all this data, which could be anything from json, csv or just plain text, my eyes tend to bleed. It can quite quickly become confusion as to which data I’ve looked at or how that data relates to everything else."><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "wik-i-pedia",
+    
+    "url": "http:\/\/wik-i-pedia.com\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "http:\/\/wik-i-pedia.com\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "http:\/\/wik-i-pedia.com\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "http:\/\/wik-i-pedia.com\/posts\/2014-07-13-a-new-way-of-looking-at-the-data-of-things\/",
+          "name": "Python graphviz a new way of looking at the data of things"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : ""
+  },
+  "headline": "python-graphviz: A New Way of Looking At The Data of Things",
+  "description" : "At my new job (and some of my personal projects) I found myself looking at a ton of text. Upon reviewing all this data, which could be anything from json, csv or just plain text, my eyes tend to bleed. It can quite quickly become confusion as to which data I’ve looked at or how that data relates to everything else.\n",
+  "inLanguage" : "en",
+  "wordCount":  509 ,
+  "datePublished" : "2014-07-13T00:00:00",
+  "dateModified" : "2014-07-13T00:00:00",
+  "image" : "http:\/\/wik-i-pedia.com\/",
+  "keywords" : [ "python" ],
+  "mainEntityOfPage" : "http:\/\/wik-i-pedia.com\/posts\/2014-07-13-a-new-way-of-looking-at-the-data-of-things\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "http:\/\/wik-i-pedia.com\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "http:\/\/wik-i-pedia.com\/",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="python-graphviz: A New Way of Looking At The Data of Things" />
+<meta property="og:description" content="At my new job (and some of my personal projects) I found myself looking at a ton of text. Upon reviewing all this data, which could be anything from json, csv or just plain text, my eyes tend to bleed. It can quite quickly become confusion as to which data I’ve looked at or how that data relates to everything else.">
+<meta property="og:url" content="http://wik-i-pedia.com/posts/2014-07-13-a-new-way-of-looking-at-the-data-of-things/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="wik-i-pedia" />
+
+  <meta name="twitter:title" content="python-graphviz: A New Way of Looking At The Data of Things" />
+  <meta name="twitter:description" content="At my new job (and some of my personal projects) I found myself looking at a ton of text. Upon reviewing all this data, which could be anything from json, csv or just plain text, my eyes tend to …">
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.65.3" />
+  <link rel="alternate" href="http://wik-i-pedia.com/index.xml" type="application/rss+xml" title="wik-i-pedia"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="http://wik-i-pedia.com/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" /><link rel="stylesheet" href="http://wik-i-pedia.com/css/syntax.css" /><link rel="stylesheet" href="http://wik-i-pedia.com/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://wik-i-pedia.com/">wik-i-pedia</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="posts-heading">
+              
+                <h1>python-graphviz: A New Way of Looking At The Data of Things</h1>
+              
+              
+                <hr class="small">
+              
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>At my new job (and some of my personal projects) I found myself looking at a ton of text. Upon reviewing all this data, which could be anything from json, csv or just plain text, my eyes tend to bleed. It can quite quickly become confusion as to which data I’ve looked at or how that data relates to everything else.</p>
+<p>With all of that being said, it was time to find a new way of looking at things.  This is where python-graphviz has come in handy.  The first thing I needed to do (after spending some time googling and then finally learning about graphviz anyway) was to find a way to normalize my data.</p>
+<p>In an attempt to keep things nice and simple we are just going to look at some basic data in a csv.</p>
+<p><strong>The CSV Data</strong></p>
+<pre><code>FC_EVENT,jar_cache234234343.tmp,WindowsXP
+FC_EVENT,jar_cache543454345.tmp, Windows7
+FC_EVENT,~spawn098343434.tmp,WindowsXP
+FC_EVENT,~spawn093565831.tmp,Windows7
+FD_EVENT,fred.txt,WindowsXP
+FD_EVENT,wilma.txt,Windows7
+FD_EVENT,wilma.txt,WindowsXP
+FD_EVENT,betty.txt,WindowsXP
+FD_EVENT,betty.txt,Windows7
+FD_EVENT,betty.txt,WindowsXP
+</code></pre><p><strong>The Python Code</strong></p>
+<pre><code>#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import os
+import hashlib
+import argparse
+from graphviz import Digraph
+
+def setup():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(&quot;-f&quot;, &quot;--file&quot;, action=&quot;store&quot;, dest=&quot;file&quot;, required=True, help=&quot;File to create dot file from&quot;)
+    global args
+    args = parser.parse_args()
+    
+def main():
+    setup()
+    fp = open('%s' % args.file, 'r')
+    fp_lines = fp.readlines()
+    fp.close()
+    
+    normalized_data = []
+    
+    for line in fp_lines:
+        if not line.strip().startswith(&quot;#&quot;) and line.strip() != &quot;&quot;:
+            line_data = line.strip().split(&quot;,&quot;)
+            tmp_data = {
+                &quot;action&quot;: line_data[0],
+                &quot;file&quot;: line_data[1],
+                &quot;os&quot;: line_data[2],
+            }
+            normalized_data.append(tmp_data)
+                
+    dot = Digraph(comment='No Comments Here')
+    dot.node_attr['shape'] = 'box'
+    dot.graph_attr['ranksep'] = '1.5'
+    dot.graph_attr['nodesep'] = '0.8'
+    dot.graph_attr['splines'] = &quot;ortho&quot;
+    n = 0
+    lookup = {}
+    existing_edges = []
+                
+    if normalized_data:
+        for root in sorted(normalized_data):
+            for itm in root.items():
+                if not (itm[1] in lookup):
+                    lookup[itm[1]] = n
+                    dot.node('n%d' % n, '%s' % itm[1])
+                    n += 1
+
+            t_hash = hashlib.md5()
+            t_hash.update(&quot;%s%s&quot; % (root[&quot;action&quot;], root[&quot;file&quot;]))
+            if not t_hash.hexdigest() in existing_edges:
+                    existing_edges.append(t_hash.hexdigest())
+                    dot.edge('n%s' % lookup[root[&quot;action&quot;]], 'n%s' % lookup[root[&quot;file&quot;]])
+                    
+            t_hash = hashlib.md5()
+            t_hash.update(&quot;%s%s&quot; % (root[&quot;file&quot;], root[&quot;os&quot;]))
+            if not t_hash.hexdigest() in existing_edges:
+                    existing_edges.append(t_hash.hexdigest())
+                    dot.edge('n%s' % lookup[root[&quot;file&quot;]], 'n%s' % lookup[root[&quot;os&quot;]])
+                    
+            fp = open('%s.dot' % os.path.basename(args.file), 'w')
+            fp.write(dot.source)
+            fp.close()
+            
+if __name__ == &quot;__main__&quot;:
+    main()
+</code></pre><p><strong>The Pretty Results</strong></p>
+<p>
+<link rel="stylesheet" href="http://wik-i-pedia.com/css/hugo-easy-gallery.css" />
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/2014-07-13-a-new-way-of-looking-at-the-data-of-things/results.png" alt="/2014-07-13-a-new-way-of-looking-at-the-data-of-things/results.png"/>
+    </div>
+    <a href="/2014-07-13-a-new-way-of-looking-at-the-data-of-things/results.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+<!-- raw HTML omitted --></p>
+<p><strong>The Results</strong></p>
+<p>The following results can be saved as a .dot file and then opened up into graphviz directy in order to see the pretty chart we just made.</p>
+<pre><code>// No Comments Here
+digraph {
+	graph [nodesep=0.8 ranksep=1.5 splines=ortho]
+	node [shape=box]
+		n0 [label=FC_EVENT]
+		n1 [label=WindowsXP]
+		n2 [label=&quot;jar_cache234234343.tmp&quot;]
+			n0 -&gt; n2
+			n2 -&gt; n1
+		n3 [label=&quot; Windows7&quot;]
+		n4 [label=&quot;jar_cache543454345.tmp&quot;]
+			n0 -&gt; n4
+			n4 -&gt; n3
+		n5 [label=Windows7]
+		n6 [label=&quot;~spawn093565831.tmp&quot;]
+			n0 -&gt; n6
+			n6 -&gt; n5
+		n7 [label=&quot;~spawn098343434.tmp&quot;]
+			n0 -&gt; n7
+			n7 -&gt; n1
+		n8 [label=FD_EVENT]
+		n9 [label=&quot;betty.txt&quot;]
+			n8 -&gt; n9
+			n9 -&gt; n5
+			n9 -&gt; n1
+		n10 [label=&quot;fred.txt&quot;]
+			n8 -&gt; n10
+			n10 -&gt; n1
+		n11 [label=&quot;wilma.txt&quot;]
+			n8 -&gt; n11
+			n11 -&gt; n5
+			n11 -&gt; n1
+}
+</code></pre><p><strong>Summary</strong></p>
+<p>This is a VERY simple example of what you can do with python-graphviz.  I would also like to mention that I used hashlib to help make sure multiple nodes of the same thing did not get created which wasn&rsquo;t really needed in this example, but may prove useful later on with larger datasets.</p>
+
+        
+          <div class="blog-tags">
+            
+              <a href="http://wik-i-pedia.com//tags/python/">python</a>&nbsp;
+            
+          </div>
+        
+
+        
+
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="http://wik-i-pedia.com/posts/2014-04-06-reviewing-the-hackers-playbook/" data-toggle="tooltip" data-placement="top" title="Reviewing The Hacker Playbook">&larr; Previous Post</a>
+            </li>
+          
+          
+            <li class="next">
+              <a href="http://wik-i-pedia.com/posts/2014-08-14-octopress-update/" data-toggle="tooltip" data-placement="top" title="octopress update">Next Post &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+
+    </div>
+  </div>
+</div>
+
+      
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2017
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="http://wik-i-pedia.com/">wik-i-pedia</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="https://gohugo.io">Hugo v0.65.3</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="http://wik-i-pedia.com/js/main.js"></script><script> renderMathInElement(document.body); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="http://wik-i-pedia.com/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+
+
+
+    
+  </body>
+</html>
+

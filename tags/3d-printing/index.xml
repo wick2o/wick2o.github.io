@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3d printing on wik-i-pedia</title>
+    <link>http://wik-i-pedia.com/tags/3d-printing/</link>
+    <description>Recent content in 3d printing on wik-i-pedia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://wik-i-pedia.com/tags/3d-printing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Student of the Month Trophy</title>
+      <link>http://wik-i-pedia.com/posts/2017-12-29-student-of-the-month-trophy/</link>
+      <pubDate>Fri, 29 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2017-12-29-student-of-the-month-trophy/</guid>
+      <description>&lt;p&gt;My son volunteered to design and produce a &amp;ldquo;Student of the Month&amp;rdquo; trophy for his 6th grade class.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>DEFCON Smiley</title>
+      <link>http://wik-i-pedia.com/posts/2017-08-02-defcon-smiley/</link>
+      <pubDate>Wed, 02 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2017-08-02-defcon-smiley/</guid>
+      <description>I released my model on thingiverse today. Check it out HERE
+Enjoy!</description>
+    </item>
+    
+  </channel>
+</rss>

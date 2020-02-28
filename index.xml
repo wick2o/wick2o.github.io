@@ -6,18 +6,387 @@
     <description>Recent content on wik-i-pedia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Feb 2020 14:41:57 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 29 Dec 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://wik-i-pedia.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>My First Post</title>
-      <link>http://wik-i-pedia.com/posts/my-first-post/</link>
-      <pubDate>Fri, 28 Feb 2020 14:41:57 -0500</pubDate>
+      <title>Student of the Month Trophy</title>
+      <link>http://wik-i-pedia.com/posts/2017-12-29-student-of-the-month-trophy/</link>
+      <pubDate>Fri, 29 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://wik-i-pedia.com/posts/my-first-post/</guid>
-      <description>Hello World</description>
+      <guid>http://wik-i-pedia.com/posts/2017-12-29-student-of-the-month-trophy/</guid>
+      <description>&lt;p&gt;My son volunteered to design and produce a &amp;ldquo;Student of the Month&amp;rdquo; trophy for his 6th grade class.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>DEFCON Smiley</title>
+      <link>http://wik-i-pedia.com/posts/2017-08-02-defcon-smiley/</link>
+      <pubDate>Wed, 02 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2017-08-02-defcon-smiley/</guid>
+      <description>I released my model on thingiverse today. Check it out HERE
+Enjoy!</description>
+    </item>
+    
+    <item>
+      <title>SECTF Submission 2015</title>
+      <link>http://wik-i-pedia.com/posts/2016-06-16-sectf-submission/</link>
+      <pubDate>Thu, 16 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2016-06-16-sectf-submission/</guid>
+      <description>&lt;p&gt;This year at DEFCON I thought I would try my hand at the Social Engineering CTF.  Not only do you have to raise your hand and and go &amp;lsquo;pick me! pick me!&#39;, you also must submit a short video for their review.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>BSidesDE Spawncamp and My Spawn</title>
+      <link>http://wik-i-pedia.com/posts/2014-11-17-bsidesde-spawncamp/</link>
+      <pubDate>Mon, 17 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2014-11-17-bsidesde-spawncamp/</guid>
+      <description>&lt;p&gt;A few weeks ago while attending BSidesDC I found out that BSidesDE was planning a kids event this year.  The moment my kids heard the word minecraft all bets went out of the window and they just HAD to be there.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>A Shapeoko Vacuum Table Design</title>
+      <link>http://wik-i-pedia.com/posts/2014-10-10-shapeoko-vacuum-table/</link>
+      <pubDate>Fri, 10 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2014-10-10-shapeoko-vacuum-table/</guid>
+      <description>&lt;p&gt;I was trying to cut out some shapes from some 1/16&amp;rdquo; thick acrylic the other day when after a few cuts the material seemed to be lifted by the drill.  The cutout part would also start to move as the drill reached the end of its travel. This is when it hit me, having a vacuum table would sure be nice!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>NoVA Hackers DEFCON 22 Badges</title>
+      <link>http://wik-i-pedia.com/posts/2014-08-31-novahackers-defcon-badge/</link>
+      <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2014-08-31-novahackers-defcon-badge/</guid>
+      <description>&lt;p&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://wik-i-pedia.com/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://wik-i-pedia.com/2014-08-31-novahackers-defcon-badge/novabadge.jpg&#34; alt=&#34;/2014-08-31-novahackers-defcon-badge/novabadge.jpg&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://wik-i-pedia.com/2014-08-31-novahackers-defcon-badge/novabadge.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;!-- raw HTML omitted --&gt;
+The NoVA Hackers is an infosec group from the &lt;a href=&#34;http://novahackers.blogspot.com/&#34;&gt;northern Virginia DC area&lt;/a&gt;.  As a member  I thought it was time we had our own DEFCON style badges while in Vegas (much like many of the other infosec groups).  It was just a random idea that the rest of the group loved, so over the past 8 months it has been a constant off again and on again project.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Blackhat Training 2014 Review</title>
+      <link>http://wik-i-pedia.com/posts/2014-08-14-blackhat-training-2014-review/</link>
+      <pubDate>Sat, 16 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2014-08-14-blackhat-training-2014-review/</guid>
+      <description>&lt;p&gt;This year I had some extra money burning a hole in my pocket and right away I thought Blackhat Training.  This year I had the pleasure of taking the &lt;a href=&#34;https://www.blackhat.com/us-14/training/advanced-practical-social-engineering.html&#34;&gt;Advanced Practical Social Engineering&lt;/a&gt; class by Social-Engineer, Inc.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>farewell gitdigger</title>
+      <link>http://wik-i-pedia.com/posts/2014-08-14-farewell-gitdigger/</link>
+      <pubDate>Thu, 14 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2014-08-14-farewell-gitdigger/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s with great regret that I need to shutdown the hardware and say goodbye to my gitdigger project. There are a few reasons and I will try and address them in this post.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>octopress update</title>
+      <link>http://wik-i-pedia.com/posts/2014-08-14-octopress-update/</link>
+      <pubDate>Thu, 14 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2014-08-14-octopress-update/</guid>
+      <description>After DEF CON I thought it would be wise to maybe blog about my Vegas antics and the classes I attended. I also thought it would be a smart idea to update octopress. The former was a good idea; the latter caused my site to die. I&amp;rsquo;ve rebuilt everything from scratch with the latest and greatest so if you notice any errors on the site please let me know.
+Thank you!</description>
+    </item>
+    
+    <item>
+      <title>python-graphviz: A New Way of Looking At The Data of Things</title>
+      <link>http://wik-i-pedia.com/posts/2014-07-13-a-new-way-of-looking-at-the-data-of-things/</link>
+      <pubDate>Sun, 13 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2014-07-13-a-new-way-of-looking-at-the-data-of-things/</guid>
+      <description>&lt;p&gt;At my new job (and some of my personal projects) I found myself looking at a ton of text. Upon reviewing all this data, which could be anything from json, csv or just plain text, my eyes tend to bleed. It can quite quickly become confusion as to which data I’ve looked at or how that data relates to everything else.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Reviewing The Hacker Playbook</title>
+      <link>http://wik-i-pedia.com/posts/2014-04-06-reviewing-the-hackers-playbook/</link>
+      <pubDate>Sun, 06 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2014-04-06-reviewing-the-hackers-playbook/</guid>
+      <description>&lt;p&gt;The Hacker Playbook was written by Peter Kim. You can find it on Amazon in Paperback and Kindle versions &lt;a href=&#34;www.amazon.com/dp/B00J5S9OPU&#34;&gt;HERE&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Reviewing RTFM - Red Team Field Manual</title>
+      <link>http://wik-i-pedia.com/posts/2014-04-05-reviewing-red-team-field-manual/</link>
+      <pubDate>Sat, 05 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2014-04-05-reviewing-red-team-field-manual/</guid>
+      <description>&lt;p&gt;RTFM: Red Team Field Manual was written by Ben Clark. You can find it on Amazon in Paperback version &lt;a href=&#34;www.amazon.com/dp/1494295504&#34;&gt;HERE&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Using NSIS to create an auto installer</title>
+      <link>http://wik-i-pedia.com/posts/2014-03-14-using-nsis-to-create-auto-installers/</link>
+      <pubDate>Fri, 14 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2014-03-14-using-nsis-to-create-auto-installers/</guid>
+      <description>&lt;p&gt;NSIS (Nullsoft Scriptable Install System) is a professional open source system to create Windows installers.  You can download NSIS from the main website &lt;a href=&#34;http://nsis.sourceforge.net/Main_Page&#34;&gt;HERE&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Reviewing Unmasking the Social Engineer</title>
+      <link>http://wik-i-pedia.com/posts/2014-03-07-reviewing-unmasking-the-social-engineer/</link>
+      <pubDate>Fri, 07 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2014-03-07-reviewing-unmasking-the-social-engineer/</guid>
+      <description>&lt;p&gt;Unmasking the Social Engineer was written by Christopher Hadnagy at &lt;a href=&#34;http://social-engineer.com/&#34;&gt;social-engineer.com&lt;/a&gt;.  He takes the research from Paul Ekman, PH.D. and applies it to the human element of security. You can find it on Amazon in both Kindle and Paperback versions &lt;a href=&#34;www.amazon.com/dp/1118608577&#34;&gt;HERE&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Installing edb debugger on Ubuntu</title>
+      <link>http://wik-i-pedia.com/posts/2014-03-01-installing-edb-debugger-on-ubuntu/</link>
+      <pubDate>Sat, 01 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2014-03-01-installing-edb-debugger-on-ubuntu/</guid>
+      <description>&lt;p&gt;First lets start by installing the needed packages.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Fun with Shapeoko</title>
+      <link>http://wik-i-pedia.com/posts/2014-02-25-fun-with-shapeoko/</link>
+      <pubDate>Tue, 25 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2014-02-25-fun-with-shapeoko/</guid>
+      <description>&lt;p&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://wik-i-pedia.com/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://wik-i-pedia.com/2014-02-25-fun-with-shapeoko/large_floppy_wood.png&#34; alt=&#34;/2014-02-25-fun-with-shapeoko/large_floppy_wood.png&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://wik-i-pedia.com/2014-02-25-fun-with-shapeoko/large_floppy_wood.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve been looking for a micro project to get some use out of my Shapeoko.  What&amp;rsquo;s more fun then a 5.25 floppy disk coaster?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The Everyday Carry Handcuff Key</title>
+      <link>http://wik-i-pedia.com/posts/2014-02-19-the-everyday-carry-handcuff-key/</link>
+      <pubDate>Wed, 19 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2014-02-19-the-everyday-carry-handcuff-key/</guid>
+      <description>&lt;p&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://wik-i-pedia.com/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://wik-i-pedia.com/2014-02-19-the-everyday-carry-handcuff-key/tihk.jpg&#34; alt=&#34;/2014-02-19-the-everyday-carry-handcuff-key/tihk.jpg&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://wik-i-pedia.com/2014-02-19-the-everyday-carry-handcuff-key/tihk.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;This is a very small inconspicuous handcuff key I found in one of my RSS feeds.  I&amp;rsquo;m not sure why, but I had to check them out.  I like the small footprint and it clips nicely on a belt loop or on the webbing of my daily carry bag.  I don&amp;rsquo;t like that it&amp;rsquo;s made of stainless steel; it&amp;rsquo;s something that you could easily forget about while going through a metal detector.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to handle multiple github accounts</title>
+      <link>http://wik-i-pedia.com/posts/2014-02-18-how-to-handle-multiple-git-accounts/</link>
+      <pubDate>Tue, 18 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2014-02-18-how-to-handle-multiple-git-accounts/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve always just worked with one GitHub account (my personal one), and then came
+octopress.  I wanted to convert all the sites I manage from WordPress to octopress.  Everything went well until running rake deploy.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Shapeoko 2 Build Notes</title>
+      <link>http://wik-i-pedia.com/posts/2014-02-12-shapeoko2-has-arrived/</link>
+      <pubDate>Wed, 12 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2014-02-12-shapeoko2-has-arrived/</guid>
+      <description>&lt;p&gt;Today I completed my &lt;a href=&#34;https://www.inventables.com/technologies/desktop-cnc-mill-kit-shapeoko-2&#34;&gt;Shapeoko 2&lt;/a&gt; build.  Following the instuctions on their wiki was pretty straight forward.  There are a few key items I will share in case you order one yourself.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Shapeoko 2 Has Arrived!</title>
+      <link>http://wik-i-pedia.com/posts/2014-02-06-shapeoko-has-arrived/</link>
+      <pubDate>Thu, 06 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2014-02-06-shapeoko-has-arrived/</guid>
+      <description>Today my Shapeoko 2 has arrived. For those who don&amp;rsquo;t know what this is; it&amp;rsquo;s a desktop CNC Mill from Inventables. I&amp;rsquo;ve put about 1/3rd of it together so far. Pictures and what I do with it may be posted in the future.</description>
+    </item>
+    
+    <item>
+      <title>How to get your iPhone 5s to show up in iTunes</title>
+      <link>http://wik-i-pedia.com/posts/2014-02-04-iphone5-win8-appear-in-itunes/</link>
+      <pubDate>Tue, 04 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2014-02-04-iphone5-win8-appear-in-itunes/</guid>
+      <description>&lt;p&gt;Tonight I was asked why someones iPhone 5 (or maybe it was a 5s) didn&amp;rsquo;t show up in iTunes. Luckly they had their laptop with them. The OS was Windows 8 so your milage may vary.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>New Year Haunted Adventure</title>
+      <link>http://wik-i-pedia.com/posts/2014-01-04-new-year-haunted-adventure/</link>
+      <pubDate>Sat, 04 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2014-01-04-new-year-haunted-adventure/</guid>
+      <description>&lt;p&gt;This year the wife and I stayed at a Haunted B&amp;amp;B and did 2 ghost hunts. We&amp;rsquo;ve never done either before and it sounded like. The &amp;ldquo;hunts&amp;rdquo; were fun, walking around a haunted location with some other people and using the equipment then you see on all the ghost shows. I bought a small voice recorder while out and about to leave running in the room while we slept.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Why yes, I would like that as a kindle book</title>
+      <link>http://wik-i-pedia.com/posts/2013-10-09-i-would-like-that-as-a-kindle-book/</link>
+      <pubDate>Wed, 09 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2013-10-09-i-would-like-that-as-a-kindle-book/</guid>
+      <description>&lt;p&gt;I got a bit tired of not finding that one IT book I wanted in kindle format. The following script will go thought Amazon&amp;rsquo;s IT Books and auto check the link to request a kindle version. Warning, This was a quick and dirty solution. Your mileage may vary.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Android Tools in Kali &#43; Raspbian</title>
+      <link>http://wik-i-pedia.com/posts/2013-09-30-setting-up-andriod-tools-in-kali-raspbian/</link>
+      <pubDate>Mon, 30 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2013-09-30-setting-up-andriod-tools-in-kali-raspbian/</guid>
+      <description>&lt;p&gt;How I got Android Tools working in Kali and Raspbian&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Stopping a small botnet</title>
+      <link>http://wik-i-pedia.com/posts/2013-09-18-stopping-a-small-botnet/</link>
+      <pubDate>Wed, 18 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2013-09-18-stopping-a-small-botnet/</guid>
+      <description>&lt;p&gt;Today I woke up to an unresponsive website. When I started to look at the Apache access.log file I found a ton of IPs trying to bruteforce my wp-admin.php creds. I knew they weren&amp;rsquo;t going to get anywhere (thank you google auth), but it was doing a good job at DDOS.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>gitrecon</title>
+      <link>http://wik-i-pedia.com/posts/2013-09-10-gitrecon/</link>
+      <pubDate>Tue, 10 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2013-09-10-gitrecon/</guid>
+      <description>&lt;p&gt;I was on &lt;a href=&#34;http://www.concise-courses.com/infosec/gitdigger-creating-useful-wordlists-from-github/&#34;&gt;hacker hotshots&lt;/a&gt; today. I was asked: Will any of the code make it into Kali?. It didn&amp;rsquo;t even occur to me that some of the code I&amp;rsquo;m using would be useful to others. After a few moments of thought &amp;lsquo;gitrecon&amp;rsquo; was born.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi: Call Screening</title>
+      <link>http://wik-i-pedia.com/posts/2013-09-10-rasberry-pi-call-screening/</link>
+      <pubDate>Tue, 10 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2013-09-10-rasberry-pi-call-screening/</guid>
+      <description>&lt;p&gt;Lets get our call sceening on with our Raspberry Pi.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi: Preseeding</title>
+      <link>http://wik-i-pedia.com/posts/2013-09-10-raspberry-pi-preseeding/</link>
+      <pubDate>Tue, 10 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2013-09-10-raspberry-pi-preseeding/</guid>
+      <description>&lt;p&gt;I have been playing around with multiple projects on a Raspberry Pi and got tired of answering the install questions over and over again. I&amp;rsquo;m going to assume you know how to do a default install of Raspbian using the &lt;a href=&#34;http://www.raspbian.org/RaspbianInstaller&#34;&gt;installer&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>iOS Google Authenticator Screw Up</title>
+      <link>http://wik-i-pedia.com/posts/2013-09-04-ios-google-auth-screw-up/</link>
+      <pubDate>Wed, 04 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2013-09-04-ios-google-auth-screw-up/</guid>
+      <description>&lt;p&gt;If you have not heard the news, &lt;a href=&#34;http://techcrunch.com/2013/09/04/dont-install-the-google-authenticator-for-ios-update-unless-you-want-your-stored-user-accounts-wiped/&#34;&gt;Google screwed up their iphone app&lt;/a&gt;. If you were unlucky (like i was) and updated to the latest version it wiped all of your accounts. I didn&amp;rsquo;t get hit too hard, I only lost access to two WordPress blogs. Below is how I quickly fixed it.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Review: Grid-it</title>
+      <link>http://wik-i-pedia.com/posts/2013-08-20-review-grid-it/</link>
+      <pubDate>Tue, 20 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2013-08-20-review-grid-it/</guid>
+      <description>&lt;p&gt;This is the perfect item for your redteamer (or toy) bag. All the little gadgets that normally just flop around on the bottom of my bag are now neatly in one place, and I can find them in a hurry.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi: OpenVPN</title>
+      <link>http://wik-i-pedia.com/posts/2013-08-19-raspberry-pi-openvpn/</link>
+      <pubDate>Mon, 19 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2013-08-19-raspberry-pi-openvpn/</guid>
+      <description>&lt;p&gt;This is the story of how I got my Raspberry Pi to be my OpenVPN Server. I am using Raspbian as my Pi OS.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>DEFCON 2013</title>
+      <link>http://wik-i-pedia.com/posts/2013-08-09-defcon-23/</link>
+      <pubDate>Fri, 09 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2013-08-09-defcon-23/</guid>
+      <description>&lt;p&gt;My exploits from hacker summercamp!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>My Favorite Firefox Add-ons</title>
+      <link>http://wik-i-pedia.com/posts/2013-07-23-my-favorite-firefox-addons/</link>
+      <pubDate>Tue, 23 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2013-07-23-my-favorite-firefox-addons/</guid>
+      <description>&lt;p&gt;Just a list of my favorite Firefox Add-ons.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>irssi &#43; blowfish = fun</title>
+      <link>http://wik-i-pedia.com/posts/2013-07-09-irssi-blowfish-fun/</link>
+      <pubDate>Tue, 09 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2013-07-09-irssi-blowfish-fun/</guid>
+      <description>&lt;p&gt;Who doesnt want to encrypt their IRC Messages?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>enwiki Username Wordlist</title>
+      <link>http://wik-i-pedia.com/posts/2013-07-08-enwiki-username-wordlist/</link>
+      <pubDate>Mon, 08 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2013-07-08-enwiki-username-wordlist/</guid>
+      <description>&lt;p&gt;How to convert enwiki into a wordlist.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Splinter Test Framework</title>
+      <link>http://wik-i-pedia.com/posts/2013-07-07-splinter-test-framework/</link>
+      <pubDate>Sun, 07 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2013-07-07-splinter-test-framework/</guid>
+      <description>&lt;p&gt;Splinter is an open source tool for testing web applications using Python. It lets you automate browser actions, such as visiting URLs and interacting with their itemcts..&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Joyland</title>
+      <link>http://wik-i-pedia.com/posts/2013-03-07-joyland/</link>
+      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2013-03-07-joyland/</guid>
+      <description>This is a great story about a young man who takes a summer job at a carny, leaves school, solves a crime with a ghost twist that only Stephen King can come up with. I loved it. Go pick it up at Amazon.com</description>
+    </item>
+    
+    <item>
+      <title>The Professional Thief</title>
+      <link>http://wik-i-pedia.com/posts/2013-03-07-the-professional-thief/</link>
+      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://wik-i-pedia.com/posts/2013-03-07-the-professional-thief/</guid>
+      <description>&lt;p&gt;This book was written by researching and talking with a professional thief. The slang and mentality is from the 1900s. My initial thoughts were not very favorable when I was about 60 pages into the book. I couldn&amp;rsquo;t see what information I could get out of the book that wanted covered in the movie/play Oliver or the more relevant BBC show hustle. I&amp;rsquo;m not one to put down a book I&amp;rsquo;ve set to read so I carried on.&lt;/p&gt;</description>
     </item>
     
   </channel>

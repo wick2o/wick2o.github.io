@@ -3,26 +3,298 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://wik-i-pedia.com/posts/my-first-post/</loc>
-    <lastmod>2020-02-28T14:41:57-05:00</lastmod>
+    <loc>http://wik-i-pedia.com/tags/3d-printing/</loc>
+    <lastmod>2017-12-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/tags/general/</loc>
+    <lastmod>2017-12-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://wik-i-pedia.com/posts/</loc>
-    <lastmod>2020-02-28T14:41:57-05:00</lastmod>
+    <lastmod>2017-12-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://wik-i-pedia.com/</loc>
-    <lastmod>2020-02-28T14:41:57-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://wik-i-pedia.com/categories/</loc>
+    <loc>http://wik-i-pedia.com/posts/2017-12-29-student-of-the-month-trophy/</loc>
+    <lastmod>2017-12-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://wik-i-pedia.com/tags/</loc>
+    <lastmod>2017-12-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/</loc>
+    <lastmod>2017-12-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/tags/defcon/</loc>
+    <lastmod>2017-08-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2017-08-02-defcon-smiley/</loc>
+    <lastmod>2017-08-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2016-06-16-sectf-submission/</loc>
+    <lastmod>2016-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/tags/bsidesde/</loc>
+    <lastmod>2014-11-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2014-11-17-bsidesde-spawncamp/</loc>
+    <lastmod>2014-11-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/tags/review/</loc>
+    <lastmod>2014-11-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2014-10-10-shapeoko-vacuum-table/</loc>
+    <lastmod>2014-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/tags/howto/</loc>
+    <lastmod>2014-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/categories/badges/</loc>
+    <lastmod>2014-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/tags/badges/</loc>
+    <lastmod>2014-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/categories/</loc>
+    <lastmod>2014-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/categories/defcon/</loc>
+    <lastmod>2014-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/categories/general/</loc>
+    <lastmod>2014-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2014-08-31-novahackers-defcon-badge/</loc>
+    <lastmod>2014-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/categories/review/</loc>
+    <lastmod>2014-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/tags/blackhat/</loc>
+    <lastmod>2014-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2014-08-14-blackhat-training-2014-review/</loc>
+    <lastmod>2014-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/tags/social-engineering/</loc>
+    <lastmod>2014-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2014-08-14-farewell-gitdigger/</loc>
+    <lastmod>2014-08-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2014-08-14-octopress-update/</loc>
+    <lastmod>2014-08-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/tags/python/</loc>
+    <lastmod>2014-07-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2014-07-13-a-new-way-of-looking-at-the-data-of-things/</loc>
+    <lastmod>2014-07-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/tags/books/</loc>
+    <lastmod>2014-04-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2014-04-06-reviewing-the-hackers-playbook/</loc>
+    <lastmod>2014-04-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2014-04-05-reviewing-red-team-field-manual/</loc>
+    <lastmod>2014-04-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2014-03-14-using-nsis-to-create-auto-installers/</loc>
+    <lastmod>2014-03-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2014-03-07-reviewing-unmasking-the-social-engineer/</loc>
+    <lastmod>2014-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2014-03-01-installing-edb-debugger-on-ubuntu/</loc>
+    <lastmod>2014-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/tags/linux/</loc>
+    <lastmod>2014-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2014-02-25-fun-with-shapeoko/</loc>
+    <lastmod>2014-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2014-02-19-the-everyday-carry-handcuff-key/</loc>
+    <lastmod>2014-02-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2014-02-18-how-to-handle-multiple-git-accounts/</loc>
+    <lastmod>2014-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2014-02-12-shapeoko2-has-arrived/</loc>
+    <lastmod>2014-02-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2014-02-06-shapeoko-has-arrived/</loc>
+    <lastmod>2014-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2014-02-04-iphone5-win8-appear-in-itunes/</loc>
+    <lastmod>2014-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2014-01-04-new-year-haunted-adventure/</loc>
+    <lastmod>2014-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2013-10-09-i-would-like-that-as-a-kindle-book/</loc>
+    <lastmod>2013-10-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2013-09-30-setting-up-andriod-tools-in-kali-raspbian/</loc>
+    <lastmod>2013-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2013-09-18-stopping-a-small-botnet/</loc>
+    <lastmod>2013-09-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2013-09-10-gitrecon/</loc>
+    <lastmod>2013-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2013-09-10-rasberry-pi-call-screening/</loc>
+    <lastmod>2013-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2013-09-10-raspberry-pi-preseeding/</loc>
+    <lastmod>2013-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2013-09-04-ios-google-auth-screw-up/</loc>
+    <lastmod>2013-09-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2013-08-20-review-grid-it/</loc>
+    <lastmod>2013-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2013-08-19-raspberry-pi-openvpn/</loc>
+    <lastmod>2013-08-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2013-08-09-defcon-23/</loc>
+    <lastmod>2013-08-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2013-07-23-my-favorite-firefox-addons/</loc>
+    <lastmod>2013-07-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2013-07-09-irssi-blowfish-fun/</loc>
+    <lastmod>2013-07-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2013-07-08-enwiki-username-wordlist/</loc>
+    <lastmod>2013-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2013-07-07-splinter-test-framework/</loc>
+    <lastmod>2013-07-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2013-03-07-joyland/</loc>
+    <lastmod>2013-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/tags/pleasure/</loc>
+    <lastmod>2013-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/2013-03-07-the-professional-thief/</loc>
+    <lastmod>2013-03-07T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>
