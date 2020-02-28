@@ -6,6 +6,8 @@
     <description>Recent content in linux on wik-i-pedia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</managingEditor>
+    <webMaster>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</webMaster>
     <lastBuildDate>Sat, 01 Mar 2014 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://wik-i-pedia.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
@@ -15,7 +17,7 @@
       <title>Installing edb debugger on Ubuntu</title>
       <link>http://wik-i-pedia.com/posts/2014-03-01-installing-edb-debugger-on-ubuntu/</link>
       <pubDate>Sat, 01 Mar 2014 00:00:00 +0000</pubDate>
-      
+      <author>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</author>
       <guid>http://wik-i-pedia.com/posts/2014-03-01-installing-edb-debugger-on-ubuntu/</guid>
       <description>&lt;p&gt;First lets start by installing the needed packages.&lt;/p&gt;</description>
     </item>

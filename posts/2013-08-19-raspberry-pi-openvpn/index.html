@@ -8,7 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
   <title>Raspberry Pi: OpenVPN - wik-i-pedia</title>
-  <meta name="description" content="This is the story of how I got my Raspberry Pi to be my OpenVPN Server. I am using Raspbian as my Pi OS."><script type="application/ld+json">
+  <meta name="description" content="This is the story of how I got my Raspberry Pi to be my OpenVPN Server. I am using Raspbian as my Pi OS.">
+  <meta name="author" content="Jaime &#39;WiK&#39; Filson"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "WebSite",
@@ -53,7 +54,7 @@
   "@context": "http://schema.org",
   "@type": "Article",
   "author": {
-    "name" : ""
+    "name" : "Jaime \x27WiK\x27 Filson"
   },
   "headline": "Raspberry Pi: OpenVPN",
   "description" : "This is the story of how I got my Raspberry Pi to be my OpenVPN Server. I am using Raspbian as my Pi OS.\n",
@@ -61,7 +62,7 @@
   "wordCount":  483 ,
   "datePublished" : "2013-08-19T00:00:00",
   "dateModified" : "2013-08-19T00:00:00",
-  "image" : "http:\/\/wik-i-pedia.com\/",
+  "image" : "http:\/\/wik-i-pedia.com\/img\/logo.png",
   "keywords" : [ "howto" ],
   "mainEntityOfPage" : "http:\/\/wik-i-pedia.com\/posts\/2013-08-19-raspberry-pi-openvpn\/",
   "publisher" : {
@@ -69,7 +70,7 @@
     "name" : "http:\/\/wik-i-pedia.com\/",
     "logo" : {
         "@type" : "ImageObject",
-        "url" : "http:\/\/wik-i-pedia.com\/",
+        "url" : "http:\/\/wik-i-pedia.com\/img\/logo.png",
         "height" :  60 ,
         "width" :  60
     }
@@ -79,20 +80,37 @@
 
 <meta property="og:title" content="Raspberry Pi: OpenVPN" />
 <meta property="og:description" content="This is the story of how I got my Raspberry Pi to be my OpenVPN Server. I am using Raspbian as my Pi OS.">
+<meta property="og:image" content="http://wik-i-pedia.com/img/logo.png" />
 <meta property="og:url" content="http://wik-i-pedia.com/posts/2013-08-19-raspberry-pi-openvpn/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="wik-i-pedia" />
 
   <meta name="twitter:title" content="Raspberry Pi: OpenVPN" />
   <meta name="twitter:description" content="This is the story of how I got my Raspberry Pi to be my OpenVPN Server. I am using Raspbian as my Pi OS.">
+  <meta name="twitter:image" content="http://wik-i-pedia.com/img/logo.png" />
   <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@jaimefilson" />
+  <meta name="twitter:creator" content="@jaimefilson" />
+  <link href='http://wik-i-pedia.com/img/favicon.png' rel='icon' type='image/x-icon'/>
   <meta name="generator" content="Hugo 0.65.3" />
   <link rel="alternate" href="http://wik-i-pedia.com/index.xml" type="application/rss+xml" title="wik-i-pedia"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="http://wik-i-pedia.com/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" /><link rel="stylesheet" href="http://wik-i-pedia.com/css/syntax.css" /><link rel="stylesheet" href="http://wik-i-pedia.com/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="http://wik-i-pedia.com/css/highlight.min.css" /><link rel="stylesheet" href="http://wik-i-pedia.com/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
 
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-42229896-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
 
 
   </head>
@@ -112,6 +130,36 @@
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="nav navbar-nav navbar-right">
         
+          
+            <li>
+              <a title="Blog" href="/">Blog</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="/page/about/">About</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Presentations" href="/page/presentations/">Presentations</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Résumé" href="/page/resume/">Résumé</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
 
         
 
@@ -119,6 +167,14 @@
       </ul>
     </div>
 
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="wik-i-pedia" href="http://wik-i-pedia.com/">
+            <img class="avatar-img" src="http://wik-i-pedia.com/img/logo.png" alt="wik-i-pedia" />
+          </a>
+        </div>
+      </div>
     
 
   </div>
@@ -217,7 +273,7 @@
         <p>This is the story of how I got my Raspberry Pi to be my OpenVPN Server. I am using Raspbian as my Pi OS.</p>
 <p><strong>Step 1:</strong></p>
 <p>Check to make sure you are completely updated.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">
 su root
 apt-get update
 apt-get -y dist-upgrade
@@ -225,52 +281,52 @@ apt-get clean
 
 </code></pre></div><p><strong>Step 2:</strong></p>
 <p>Install the needed software.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">
 apt-get -y install openvpn openssl
 apt-get clean
 
 </code></pre></div><p><strong>Step 3:</strong></p>
 <p>Setup your easy-rsa environment.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">
-cd /etc/openvpn
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">
+<span class="nb">cd</span> /etc/openvpn
 cp -r /usr/share/doc/openvpn/examples/easy-rsa/2.0 ./easy-rsa
 vim /easy-rsa/vars
 
-after export EASY_RSA<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;`pwd`&#34;</span>
+after <span class="nb">export</span> <span class="nv">EASY_RSA</span><span class="o">=</span><span class="s2">&#34;`pwd`&#34;</span>
 add
-export EASY_RSA<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/etc/openvpn/easy-rsa&#34;</span>
-find KEY_SIZE and change it from <span style="color:#ae81ff">1024</span> to <span style="color:#ae81ff">2048</span>
+<span class="nb">export</span> <span class="nv">EASY_RSA</span><span class="o">=</span><span class="s2">&#34;/etc/openvpn/easy-rsa&#34;</span>
+find KEY_SIZE and change it from <span class="m">1024</span> to <span class="m">2048</span>
 
 press escape
-Save and close <span style="color:#f92672">(</span>:wq<span style="color:#f92672">)</span>
+Save and close <span class="o">(</span>:wq<span class="o">)</span>
 
-cd easy-rsa
-source vars
+<span class="nb">cd</span> easy-rsa
+<span class="nb">source</span> vars
 ./clean-all
 ./pkitool --initca
 ln -s openssl-1.0.0.cnf openssl.cnf
 
 </code></pre></div><p><strong>Step 4:</strong></p>
 <p>Now we generate some encryption keys.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">
 ./build-ca OpenVPN
 ./build-server server
 ./build-key client-wik
 
 </code></pre></div><p><strong>Step 5:</strong></p>
 <p>Generate DH Parameters, 2048 bit key. Warning: this step takes quite a bit of time.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">
 ./build-dh
 
 </code></pre></div><p><strong>Step 6:</strong></p>
 <p>Creating the server configuration file.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">
-cd /etc/openvpn
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">
+<span class="nb">cd</span> /etc/openvpn
 vim openvpn.conf
 
 proto udp
 dev tun
-port <span style="color:#ae81ff">1194</span>
+port <span class="m">1194</span>
 ca /etc/openvpn/easy-rsa/keys/ca.crt
 cert /etc/openvpn/easy-rsa/keys/server.crt
 key /etc/openvpn/easy-rsa/keys/server.key
@@ -281,63 +337,63 @@ server 10.8.0.0 255.255.255.0
 persist-key
 persist-tun
 status /var/log/openvpn-status.log
-verb <span style="color:#ae81ff">3</span>
-<span style="color:#75715e">#uncomment below if you want vpn-users to see each other</span>
-<span style="color:#75715e">#client-to-client</span>
-push <span style="color:#e6db74">&#34;redirect-gateway def1&#34;</span>
-<span style="color:#75715e">#setup dns servers for google</span>
-<span style="color:#75715e">#push &#34;dhcp-options DNS 8.8.8.8&#34;</span>
-<span style="color:#75715e">#push &#34;dhcp-options DNS 8.8.4.4&#34;</span>
-<span style="color:#75715e">#setup dns servers for internal dns server</span>
-push <span style="color:#e6db74">&#34;dhcp-options DNS 10.8.0.1&#34;</span>
+verb <span class="m">3</span>
+<span class="c1">#uncomment below if you want vpn-users to see each other</span>
+<span class="c1">#client-to-client</span>
+push <span class="s2">&#34;redirect-gateway def1&#34;</span>
+<span class="c1">#setup dns servers for google</span>
+<span class="c1">#push &#34;dhcp-options DNS 8.8.8.8&#34;</span>
+<span class="c1">#push &#34;dhcp-options DNS 8.8.4.4&#34;</span>
+<span class="c1">#setup dns servers for internal dns server</span>
+push <span class="s2">&#34;dhcp-options DNS 10.8.0.1&#34;</span>
 log-append /var/log/openvpn
 comp-lzo
 
 press escape
-Save and close <span style="color:#f92672">(</span>:wq<span style="color:#f92672">)</span>
+Save and close <span class="o">(</span>:wq<span class="o">)</span>
 
 </code></pre></div><p><strong>Step 7:</strong></p>
 <p>Enable internet-forwarding for the VPN Clients. Warning: Replace eth0 with the correct network device as needed.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">
-echo <span style="color:#ae81ff">1</span> &gt; /proc/sys/net/ipv4/ip_forward
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">
+<span class="nb">echo</span> <span class="m">1</span> &gt; /proc/sys/net/ipv4/ip_forward
 iptables -t nat -A POSTROUTING -s 10.8.0.0/24 -o eth0 -j MASQUERADE
 vim /etc/sysctl.conf
 
-uncomment <span style="color:#75715e"># from net.ipv4.ip_forward=1</span>
+uncomment <span class="c1"># from net.ipv4.ip_forward=1</span>
 
 Press escape
-Save and close <span style="color:#f92672">(</span>:wq<span style="color:#f92672">)</span>
+Save and close <span class="o">(</span>:wq<span class="o">)</span>
 
 crontab -e
 @reboot iptables -t nat -A POSTROUTING -s 10.8.0.0/24 -o eth0 -j MASQUERADE MASQUERADE
 
-Press Cntl+x and <span style="color:#66d9ef">then</span> Y to save
+Press Cntl+x and <span class="k">then</span> Y to save
 
 </code></pre></div><p><strong>Step 8:</strong></p>
 <p>Creating the client.s ovpn file.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">
-cd /etc/openvpn/easy-rsa/keys
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">
+<span class="nb">cd</span> /etc/openvpn/easy-rsa/keys
 vim client-wik.ovpn
 
-setenv FORWARD_COMPATIBLE <span style="color:#ae81ff">1</span>
+setenv FORWARD_COMPATIBLE <span class="m">1</span>
 dev tun
 dev-type tun
 ns-cert-type server
-reneg-sec <span style="color:#ae81ff">604800</span>
-sndbuf <span style="color:#ae81ff">100000</span>
-rcvbuf <span style="color:#ae81ff">100000</span>
+reneg-sec <span class="m">604800</span>
+sndbuf <span class="m">100000</span>
+rcvbuf <span class="m">100000</span>
 client
 proto udp
-remote SERVER IP HERE <span style="color:#ae81ff">1194</span>
+remote SERVER IP HERE <span class="m">1194</span>
 resolv-retry infinite
-server-poll-timeout <span style="color:#ae81ff">4</span>
+server-poll-timeout <span class="m">4</span>
 nobind
 persist-key
 persist-tun
-<span style="color:#75715e">#LZO commands are pushed by the server at connection time</span>
-<span style="color:#75715e">#the below linle does&#39;t disable LOZ</span>
+<span class="c1">#LZO commands are pushed by the server at connection time</span>
+<span class="c1">#the below linle does&#39;t disable LOZ</span>
 comp-lzo no
-verb <span style="color:#ae81ff">3</span>
+verb <span class="m">3</span>
 setenv PUSH_PEER-INFO
 
 &lt;ca&gt;
@@ -352,38 +408,38 @@ YOUR USER CER CERT HERE
 YOUR USER KEY CERT HERE
 &lt;/key&gt;
 
-key-direction <span style="color:#ae81ff">1</span>
+key-direction <span class="m">1</span>
 
 Press escape
-Save and close <span style="color:#f92672">(</span>:wq<span style="color:#f92672">)</span>
+Save and close <span class="o">(</span>:wq<span class="o">)</span>
 
 </code></pre></div><p><strong>Finally.</strong></p>
 <p>Start openvpn with /etc/initi.d/openvpn start</p>
 <p>Time for testing. Copy your client-wik.ovpn file to an external device (I used an iphone for testing with the openvpn app). All worked as planned, I was connected, and had the correct external ip address.</p>
 <p><strong>UFW Notes</strong></p>
 <p>Just some friendly notes, as UFW likes to manage things for you.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">
-ufw allow <span style="color:#ae81ff">1194</span>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">
+ufw allow <span class="m">1194</span>
 
 vim /etc/default/ufw
 
-set default_forward_policy <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;accept&#34;</span>
+<span class="nb">set</span> <span class="nv">default_forward_policy</span> <span class="o">=</span> <span class="s2">&#34;accept&#34;</span>
 save and close
 
 vim /etc/ufw/before.rules
 after the first comment add the following:
 
-<span style="color:#75715e"># nat table rules</span>
+<span class="c1"># nat table rules</span>
 *nat
-:PREROUTING ACCEPT <span style="color:#f92672">[</span>0:0<span style="color:#f92672">]</span>
-:POSTROUTING ACCEPT <span style="color:#f92672">[</span>0:0<span style="color:#f92672">]</span>
-:OUTPUT ACCEPT <span style="color:#f92672">[</span>0:0<span style="color:#f92672">]</span>
+:PREROUTING ACCEPT <span class="o">[</span>0:0<span class="o">]</span>
+:POSTROUTING ACCEPT <span class="o">[</span>0:0<span class="o">]</span>
+:OUTPUT ACCEPT <span class="o">[</span>0:0<span class="o">]</span>
 -A POSTROUTING -s 10.8.0.0/24 -o eth0 -j MASQUERADE
 COMMIT
 save and close
 
 ufw disable
-ufw enable
+ufw <span class="nb">enable</span>
 
 </code></pre></div>
 
@@ -429,9 +485,70 @@ ufw enable
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <ul class="list-inline text-center footer-links">
           
+              <li>
+                <a href="mailto:wick2o@gmail.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/jaime.filson" title="Facebook">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/wick2o" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/jaimefilson" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/jfilson" title="LinkedIn">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://paypal.me/wick2o" title="PayPal">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-paypal fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
           
         </ul>
         <p class="credits copyright text-muted">
+          
+            
+              <a href="wik-i-pedia.com">Jaime &#39;WiK&#39; Filson</a>
+            
           
 
           &nbsp;&bull;&nbsp;&copy;
@@ -457,7 +574,10 @@ ufw enable
 <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-<script src="http://wik-i-pedia.com/js/main.js"></script><script> renderMathInElement(document.body); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="http://wik-i-pedia.com/js/main.js"></script>
+<script src="http://wik-i-pedia.com/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="http://wik-i-pedia.com/js/load-photoswipe.js"></script>
 
 

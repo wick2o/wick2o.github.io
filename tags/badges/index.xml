@@ -6,6 +6,8 @@
     <description>Recent content in badges on wik-i-pedia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</managingEditor>
+    <webMaster>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</webMaster>
     <lastBuildDate>Sun, 31 Aug 2014 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://wik-i-pedia.com/tags/badges/index.xml" rel="self" type="application/rss+xml" />
@@ -15,7 +17,7 @@
       <title>NoVA Hackers DEFCON 22 Badges</title>
       <link>http://wik-i-pedia.com/posts/2014-08-31-novahackers-defcon-badge/</link>
       <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
-      
+      <author>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</author>
       <guid>http://wik-i-pedia.com/posts/2014-08-31-novahackers-defcon-badge/</guid>
       <description>&lt;p&gt;
 &lt;link rel=&#34;stylesheet&#34; href=&#34;http://wik-i-pedia.com/css/hugo-easy-gallery.css&#34; /&gt;

@@ -6,6 +6,8 @@
     <description>Recent content in blackhat on wik-i-pedia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</managingEditor>
+    <webMaster>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</webMaster>
     <lastBuildDate>Sat, 16 Aug 2014 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://wik-i-pedia.com/tags/blackhat/index.xml" rel="self" type="application/rss+xml" />
@@ -15,7 +17,7 @@
       <title>Blackhat Training 2014 Review</title>
       <link>http://wik-i-pedia.com/posts/2014-08-14-blackhat-training-2014-review/</link>
       <pubDate>Sat, 16 Aug 2014 00:00:00 +0000</pubDate>
-      
+      <author>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</author>
       <guid>http://wik-i-pedia.com/posts/2014-08-14-blackhat-training-2014-review/</guid>
       <description>&lt;p&gt;This year I had some extra money burning a hole in my pocket and right away I thought Blackhat Training.  This year I had the pleasure of taking the &lt;a href=&#34;https://www.blackhat.com/us-14/training/advanced-practical-social-engineering.html&#34;&gt;Advanced Practical Social Engineering&lt;/a&gt; class by Social-Engineer, Inc.&lt;/p&gt;</description>
     </item>

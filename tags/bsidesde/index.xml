@@ -6,6 +6,8 @@
     <description>Recent content in bsidesde on wik-i-pedia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</managingEditor>
+    <webMaster>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</webMaster>
     <lastBuildDate>Mon, 17 Nov 2014 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://wik-i-pedia.com/tags/bsidesde/index.xml" rel="self" type="application/rss+xml" />
@@ -15,7 +17,7 @@
       <title>BSidesDE Spawncamp and My Spawn</title>
       <link>http://wik-i-pedia.com/posts/2014-11-17-bsidesde-spawncamp/</link>
       <pubDate>Mon, 17 Nov 2014 00:00:00 +0000</pubDate>
-      
+      <author>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</author>
       <guid>http://wik-i-pedia.com/posts/2014-11-17-bsidesde-spawncamp/</guid>
       <description>&lt;p&gt;A few weeks ago while attending BSidesDC I found out that BSidesDE was planning a kids event this year.  The moment my kids heard the word minecraft all bets went out of the window and they just HAD to be there.&lt;/p&gt;</description>
     </item>

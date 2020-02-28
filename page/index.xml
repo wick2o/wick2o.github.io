@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on wik-i-pedia</title>
+    <link>http://wik-i-pedia.com/page/</link>
+    <description>Recent content in Pages on wik-i-pedia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</managingEditor>
+    <webMaster>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</webMaster>
+    
+	<atom:link href="http://wik-i-pedia.com/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About me</title>
+      <link>http://wik-i-pedia.com/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</author>
+      <guid>http://wik-i-pedia.com/page/about/</guid>
+      <description>TBD</description>
+    </item>
+    
+    <item>
+      <title>Presentations</title>
+      <link>http://wik-i-pedia.com/page/presentations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</author>
+      <guid>http://wik-i-pedia.com/page/presentations/</guid>
+      <description>2017
+ Blackhat Expo Hall Images, Hiding Malware in Plain Site
+ 2016
+ Blackhat Expo Hall Fake Tech Support Scams
+Shmoocon: *#thingswikfound #omarax: What is it, and why you may care?*Video: https://archive.org/details/thingswikfound_omarax_What_Is_It_And_Why_You_May_Care
+ 2015
+ Blackhat Expo Hall: It&amp;rsquo;s Gzip
+ 2014
+ Circle City Con: gitDiggerVideo: https://www.youtube.com/watch?v=6d714lfhZVE
+ 2013
+ Security Weekly: gitDiggerhttp://wiki.securityweekly.com/wiki/index.php/Episode347
+Derbycon: gitDiggerVideo: http://www.youtube.com/watch?v=xh3qmJzojaI
+DEFCON 21 Wireless Village: Hiding your equipment in a bookDEFCON 21: gitDiggerVideo: http://www.</description>
+    </item>
+    
+    <item>
+      <title>Résumé</title>
+      <link>http://wik-i-pedia.com/page/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</author>
+      <guid>http://wik-i-pedia.com/page/resume/</guid>
+      <description>Resume in docx HERE.Resume in pdf HERE.ProfileExperienced professional seeking further challenges where a diverse technical background will be utilized while learning new technologies.
+ExperienceResearch Engineer: December 2014 - PresentSourceFire (Columbia, MD)
+Senior Research Engineer: March 2014 - November 2014CounterTack, Inc (Santa Monica, CA)
+ Using Python to automate common tasks for co-workers. Creating demos for sales staff to help demonstrate the company’s product. Modifying existing malware to bypass multiple anti-virus vendors.</description>
+    </item>
+    
+  </channel>
+</rss>

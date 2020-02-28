@@ -6,6 +6,8 @@
     <description>Recent content in Categories on wik-i-pedia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</managingEditor>
+    <webMaster>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</webMaster>
     <lastBuildDate>Sun, 31 Aug 2014 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://wik-i-pedia.com/categories/index.xml" rel="self" type="application/rss+xml" />
@@ -15,7 +17,7 @@
       <title>Badges</title>
       <link>http://wik-i-pedia.com/categories/badges/</link>
       <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
-      
+      <author>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</author>
       <guid>http://wik-i-pedia.com/categories/badges/</guid>
       <description></description>
     </item>
@@ -24,7 +26,7 @@
       <title>Defcon</title>
       <link>http://wik-i-pedia.com/categories/defcon/</link>
       <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
-      
+      <author>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</author>
       <guid>http://wik-i-pedia.com/categories/defcon/</guid>
       <description></description>
     </item>
@@ -33,7 +35,7 @@
       <title>General</title>
       <link>http://wik-i-pedia.com/categories/general/</link>
       <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
-      
+      <author>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</author>
       <guid>http://wik-i-pedia.com/categories/general/</guid>
       <description></description>
     </item>
@@ -42,7 +44,7 @@
       <title>Review</title>
       <link>http://wik-i-pedia.com/categories/review/</link>
       <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
-      
+      <author>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</author>
       <guid>http://wik-i-pedia.com/categories/review/</guid>
       <description></description>
     </item>
