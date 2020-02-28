@@ -8,10 +8,19 @@
     <language>en-us</language>
     <managingEditor>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</managingEditor>
     <webMaster>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</webMaster>
-    <lastBuildDate>Fri, 29 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://wik-i-pedia.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>I Did A Thing...or Two</title>
+      <link>http://wik-i-pedia.com/posts/2020-02-28-i-did-a-thing/</link>
+      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+      <author>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</author>
+      <guid>http://wik-i-pedia.com/posts/2020-02-28-i-did-a-thing/</guid>
+      <description>&lt;p&gt;It has been quite a while since I&amp;rsquo;ve posted any type of update. So here are some photos of things I&amp;rsquo;ve made over the last few years.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Student of the Month Trophy</title>
@@ -407,19 +416,21 @@ octopress.  I wanted to convert all the sites I manage from WordPress to octopre
       <author>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</author>
       <guid>http://wik-i-pedia.com/page/presentations/</guid>
       <description>2019
- Blackhat Expo Hall Phishing, Why Should You Care
+Blackhat Expo Hall Phishing, Why Should You Care
  2018
- Blackhat Expo Hall A Romp Down FTP Lane
+Blackhat Expo Hall A Romp Down FTP Lane
  2017
- Blackhat Expo Hall Images, Hiding Malware in Plain Site
+Blackhat Expo Hall Images, Hiding Malware in Plain Site
  2016
- Blackhat Expo Hall Fake Tech Support Scams
+Blackhat Expo Hall Fake Tech Support Scams
 Shmoocon: thingswikfound omarax: What is it, and why you may care
 Video: archive.org
  2015
- Blackhat Expo Hall: It&amp;rsquo;s Gzip
+Blackhat Expo Hall: It&amp;rsquo;s Gzip
  2014
- Circle City Con: gitDigger</description>
+Circle City Con: gitDigger
+Video: youtube.com
+ 2013</description>
     </item>
     
     <item>

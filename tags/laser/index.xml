@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>laser on wik-i-pedia</title>
+    <link>http://wik-i-pedia.com/tags/laser/</link>
+    <description>Recent content in laser on wik-i-pedia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</managingEditor>
+    <webMaster>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</webMaster>
+    <lastBuildDate>Fri, 28 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://wik-i-pedia.com/tags/laser/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>I Did A Thing...or Two</title>
+      <link>http://wik-i-pedia.com/posts/2020-02-28-i-did-a-thing/</link>
+      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+      <author>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</author>
+      <guid>http://wik-i-pedia.com/posts/2020-02-28-i-did-a-thing/</guid>
+      <description>&lt;p&gt;It has been quite a while since I&amp;rsquo;ve posted any type of update. So here are some photos of things I&amp;rsquo;ve made over the last few years.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

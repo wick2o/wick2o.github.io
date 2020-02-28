@@ -8,10 +8,37 @@
     <language>en-us</language>
     <managingEditor>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</managingEditor>
     <webMaster>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</webMaster>
-    <lastBuildDate>Fri, 29 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://wik-i-pedia.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>defcon</title>
+      <link>http://wik-i-pedia.com/tags/defcon/</link>
+      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+      <author>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</author>
+      <guid>http://wik-i-pedia.com/tags/defcon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>general</title>
+      <link>http://wik-i-pedia.com/tags/general/</link>
+      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+      <author>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</author>
+      <guid>http://wik-i-pedia.com/tags/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>laser</title>
+      <link>http://wik-i-pedia.com/tags/laser/</link>
+      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+      <author>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</author>
+      <guid>http://wik-i-pedia.com/tags/laser/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>3d printing</title>
@@ -19,24 +46,6 @@
       <pubDate>Fri, 29 Dec 2017 00:00:00 +0000</pubDate>
       <author>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</author>
       <guid>http://wik-i-pedia.com/tags/3d-printing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>general</title>
-      <link>http://wik-i-pedia.com/tags/general/</link>
-      <pubDate>Fri, 29 Dec 2017 00:00:00 +0000</pubDate>
-      <author>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</author>
-      <guid>http://wik-i-pedia.com/tags/general/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>defcon</title>
-      <link>http://wik-i-pedia.com/tags/defcon/</link>
-      <pubDate>Wed, 02 Aug 2017 00:00:00 +0000</pubDate>
-      <author>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</author>
-      <guid>http://wik-i-pedia.com/tags/defcon/</guid>
       <description></description>
     </item>
     
