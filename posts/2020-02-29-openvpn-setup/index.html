@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>I Did A Thing...or Two - wik-i-pedia</title>
-  <meta name="description" content="It has been quite a while since I&rsquo;ve posted any type of update. So here are some photos of things I&rsquo;ve made over the last few years.">
+  <title>An OpenVPN Setup - wik-i-pedia</title>
+  <meta name="description" content="Recently I had to comb though 15 different websites in order to figure out what I was doing.  Here are my notes, I hope they are helpful to you.">
   <meta name="author" content="Jaime &#39;WiK&#39; Filson"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -44,8 +44,8 @@
         "@type": "ListItem",
         "position": 3,
         "item": {
-          "@id": "http:\/\/wik-i-pedia.com\/posts\/2020-02-28-i-did-a-thing\/",
-          "name": "I did a thing...or two"
+          "@id": "http:\/\/wik-i-pedia.com\/posts\/2020-02-29-openvpn-setup\/",
+          "name": "An open v p n setup"
         }
     }]
 }
@@ -56,15 +56,15 @@
   "author": {
     "name" : "Jaime \x27WiK\x27 Filson"
   },
-  "headline": "I Did A Thing...or Two",
-  "description" : "It has been quite a while since I\x26rsquo;ve posted any type of update. So here are some photos of things I\x26rsquo;ve made over the last few years.\n",
+  "headline": "An OpenVPN Setup",
+  "description" : "Recently I had to comb though 15 different websites in order to figure out what I was doing. Here are my notes, I hope they are helpful to you.\n",
   "inLanguage" : "en",
-  "wordCount":  153 ,
-  "datePublished" : "2020-02-28T00:00:00",
-  "dateModified" : "2020-02-28T00:00:00",
+  "wordCount":  385 ,
+  "datePublished" : "2020-02-29T00:00:00",
+  "dateModified" : "2020-02-29T00:00:00",
   "image" : "http:\/\/wik-i-pedia.com\/img\/logo.png",
-  "keywords" : [ "general, defcon, laser" ],
-  "mainEntityOfPage" : "http:\/\/wik-i-pedia.com\/posts\/2020-02-28-i-did-a-thing\/",
+  "keywords" : [ "general, howto" ],
+  "mainEntityOfPage" : "http:\/\/wik-i-pedia.com\/posts\/2020-02-29-openvpn-setup\/",
   "publisher" : {
     "@type": "Organization",
     "name" : "http:\/\/wik-i-pedia.com\/",
@@ -78,15 +78,15 @@
 }
 </script>
 
-<meta property="og:title" content="I Did A Thing...or Two" />
-<meta property="og:description" content="It has been quite a while since I&rsquo;ve posted any type of update. So here are some photos of things I&rsquo;ve made over the last few years.">
+<meta property="og:title" content="An OpenVPN Setup" />
+<meta property="og:description" content="Recently I had to comb though 15 different websites in order to figure out what I was doing.  Here are my notes, I hope they are helpful to you.">
 <meta property="og:image" content="http://wik-i-pedia.com/img/logo.png" />
-<meta property="og:url" content="http://wik-i-pedia.com/posts/2020-02-28-i-did-a-thing/" />
+<meta property="og:url" content="http://wik-i-pedia.com/posts/2020-02-29-openvpn-setup/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="wik-i-pedia" />
 
-  <meta name="twitter:title" content="I Did A Thing...or Two" />
-  <meta name="twitter:description" content="It has been quite a while since I&rsquo;ve posted any type of update. So here are some photos of things I&rsquo;ve made over the last few years.">
+  <meta name="twitter:title" content="An OpenVPN Setup" />
+  <meta name="twitter:description" content="Recently I had to comb though 15 different websites in order to figure out what I was doing.  Here are my notes, I hope they are helpful to you.">
   <meta name="twitter:image" content="http://wik-i-pedia.com/img/logo.png" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@jaimefilson" />
@@ -250,7 +250,7 @@ if (!doNotTrack) {
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="posts-heading">
               
-                <h1>I Did A Thing...or Two</h1>
+                <h1>An OpenVPN Setup</h1>
               
               
                 <hr class="small">
@@ -270,75 +270,149 @@ if (!doNotTrack) {
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p>It has been quite a while since I&rsquo;ve posted any type of update. So here are some photos of things I&rsquo;ve made over the last few years.</p>
-<link rel="stylesheet" href="http://wik-i-pedia.com/css/hugo-easy-gallery.css" />
-<div class="box" >
-  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <div class="img">
-      <img itemprop="thumbnail" src="/2020-02-28-i-did-a-thing/one.png" alt="/2020-02-28-i-did-a-thing/one.png"/>
-    </div>
-    <a href="/2020-02-28-i-did-a-thing/one.png" itemprop="contentUrl"></a>
-  </figure>
-</div>
+        <p>Recently I had to comb though 15 different websites in order to figure out what I was doing.  Here are my notes, I hope they are helpful to you.</p>
+<h3 id="install-common-packages">Install Common Packages</h3>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sudo apt-get update
+sudo apt-get -y install vim openvpn easy-rsa
+</code></pre></div><h3 id="create-ca-directory">Create CA Directory</h3>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">make-cadir ~/openvpn-ca
+ca ~/openvpn-ca
+</code></pre></div><h3 id="create-vars-file">Create VARS File</h3>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">rm vars
+vim vars
+</code></pre></div><h4 id="content">Content</h4>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">set_var EASYRSA                 <span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">&#34;</span>
+set_var EASYRSA_PKI             <span class="s2">&#34;</span><span class="nv">$EASYRSA</span><span class="s2">/pki&#34;</span>
+set_var EASYRSA_DN              <span class="s2">&#34;cn_only&#34;</span>
+set_var EASYRSA_REQ_COUNTRY     <span class="s2">&#34;US&#34;</span>
+set_var EASYRSA_REQ_PROVINCE    <span class="s2">&#34;Springfield&#34;</span>
+set_var EASYRSA_REQ_CITY        <span class="s2">&#34;Springfield&#34;</span>
+set_var EASYRSA_REQ_ORG         <span class="s2">&#34;PLUMSOS CERTIFICATE AUTHORITY&#34;</span>
+set_var EASYRSA_REQ_EMAIL       <span class="s2">&#34;openvpn@plumsos.lan&#34;</span>
+set_var EASYRSA_REQ_OU          <span class="s2">&#34;PLUMSOS EASY CA&#34;</span>
+set_var EASYRSA_KEY_SIZE        <span class="m">4096</span>
+set_var EASYRSA_ALGO            rsa
+set_var EASYRSA_CA_EXPIRE       <span class="m">7500</span>
+set_var EASYRSA_CERT_EXPIRE     <span class="m">3650</span>
+set_var EASYRSA_NS_SUPPORT      <span class="s2">&#34;no&#34;</span>
+set_var EASYRSA_NS_COMMENT      <span class="s2">&#34;PLUMSOS CERTIFICATE AUTHORITY&#34;</span>
+set_var EASYRSA_EXT_DIR         <span class="s2">&#34;</span><span class="nv">$EASYRSA</span><span class="s2">/x509-types&#34;</span>
+set_var EASYRSA_SSL_CONF        <span class="s2">&#34;</span><span class="nv">$EASYRSA</span><span class="s2">/openssl-easyrsa.cnf&#34;</span>
+set_var EASYRSA_DIGEST          <span class="s2">&#34;sha256&#34;</span>
+set_var EASYRSA_BATCH           <span class="m">1</span>
+</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">:wq
+</code></pre></div><h3 id="init-the-pki">Init the pki</h3>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">./easyrsa ini-pki
+</code></pre></div><h3 id="build-the-ca">Build the CA</h3>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">./easyrsa build-ca nopass
+</code></pre></div><h3 id="build-server-key">Build Server Key</h3>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">./easyrsa gen-req server-server nopass
+</code></pre></div><h3 id="sign-the-server-key">Sign the Server Key</h3>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">./easyrsa sign-req server server-server
+</code></pre></div><h3 id="build-the-client-key">Build the Client Key</h3>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">./easyrsa gen-req client01 nopass
+</code></pre></div><h3 id="sign-the-client-key">Sign the Client Key</h3>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">./easyrsa sign-req client client01
+</code></pre></div><h3 id="build-the-diffie-hellman-key">Build the Diffie-Hellman Key</h3>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">./easyrsa gen-dh
+</code></pre></div><h3 id="copy-server-key-and-certificate">Copy Server Key and Certificate</h3>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sudo cp ~/openvpn-ca/pki/ca.crt /etc/openvpn/server/
+sudo cp ~/openvpn-ca/pki/issued/server-server.crt /etc/openvpn/server/
+sudo cp ~/openvpn-ca/pki/private/server-server.key /etc/openvpn/server/
+</code></pre></div><h3 id="copy-client-key-and-certificate">Copy Client Key and Certificate</h3>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sudo cp ~/openvpn-ca/pki/ca.crt /etc/openvpn/client/
+sudo cp ~/openvpn-ca/pki/issued/client01.crt /etc/openvpn/client/
+sudo cp ~/openvpn-ca/pki/private/client01.key /etc/openvpn/client/
+</code></pre></div><h3 id="copy-diffie-hellman-key">Copy Diffie-Hellman Key</h3>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sudo cp ~/openvpn-ca/pki/dh.pem /etc/openvpn/server/
+</code></pre></div><h3 id="create-server-config">Create Server Config</h3>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sudo vim /etc/openvpn/server.conf
+</code></pre></div><h4 id="content-1">Content:</h4>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">port <span class="m">1194</span>
+proto udp
+dev tun
+ca /etc/openvpn/server/ca.crt
+cert /etc/openvpn/server/server-server.crt
+key /etc/openvpn/server/server-server.key
+dh /etc/openvpn/server/dh.pem
+server 10.8.0.0 255.255.255.0
+push <span class="s2">&#34;redirect-gateway defl&#34;</span>
+duplicate-cn
+cipher AES-256-CBC
+tls-version-min 1.2
+tls-cipher TLS-DHE-RSA-WITH-AES-256-GCM-SHA384:TLS-DHE-RSA-WITH-AES-256-CBC-SHA256:TLS-DHE-RSA-WITH-AES-128-GCM-SHA256:TLS-DHE-RSA-WITH
+-AES-128-CBC-SHA256
+auth SHA512
+auth-nocache
+keepalive <span class="m">20</span> <span class="m">60</span>
+persist-key
+persist-tun
+compress lz4
+daemon
+user nobody
+group nogroup
+log-append /var/log/openvpn.log
+verb <span class="m">3</span>
+</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">:wq
+</code></pre></div><h3 id="create-the-client-config">Create the Client Config</h3>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sudo vim /etc/openvpn/client/client01.ovpn
+</code></pre></div><h4 id="content-2">Content:</h4>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">client
+dev tun
+proto udp
+remote 172.16.200.XXX <span class="m">1194</span>
+ca ca.crt
+cert client01.crt
+key client01.key
+cipher AES-256-CBC
+auth SHA512
+auth-nocache
+tls-version-min 1.2
+tls-cipher TLS-DHE-RSA-WITH-AES-256-GCM-SHA384:TLS-DHE-RSA-WITH-AES-256-CBC-SHA256:TLS-DHE-RSA-WITH-AES-128-GCM-SHA256:TLS-DHE-RSA-WITH
+-AES-128-CBC-SHA256
+resolv-retry infinite
+compress lz4
+nobind
+persist-key
+persist-tun
+mute-replay-warnings
+verb <span class="m">3</span>
+</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">:wq
+</code></pre></div><h3 id="enable-openvpn-server">Enable OpenVPN Server</h3>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">systemctl <span class="nb">enable</span> openvpn@server
+systemctl start openvpn@server
+</code></pre></div><h3 id="configure-ip-forwarding">Configure IP Forwarding</h3>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sudo vim /etc/sysctl.conf
 
-<p>Above are the DEFCON 19 Badges I did for NovaHackers. I made them by spray painting the acrylic before I put it into the laser. It took a few good tries to find the correct settings as the laser wanted to melt/burn the paint.</p>
-
-
-<div class="box" >
-  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <div class="img">
-      <img itemprop="thumbnail" src="/2020-02-28-i-did-a-thing/two.png" alt="/2020-02-28-i-did-a-thing/two.png"/>
-    </div>
-    <a href="/2020-02-28-i-did-a-thing/two.png" itemprop="contentUrl"></a>
-  </figure>
-</div>
-
-<p>Above are the badges for Novahackers Epilouge 2019. This was the first badge that I was able to make 100% electronic.</p>
-
-
-<div class="box" >
-  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <div class="img">
-      <img itemprop="thumbnail" src="/2020-02-28-i-did-a-thing/three.png" alt="/2020-02-28-i-did-a-thing/three.png"/>
-    </div>
-    <a href="/2020-02-28-i-did-a-thing/three.png" itemprop="contentUrl"></a>
-  </figure>
-</div>
-
-<p>I Don&rsquo;t remember where I got the idea for this, but i made a bunch and handed them out at DEFCON.  See if you can find the hidden words in the hex.</p>
-
-
-<div class="box" >
-  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <div class="img">
-      <img itemprop="thumbnail" src="/2020-02-28-i-did-a-thing/four.png" alt="/2020-02-28-i-did-a-thing/four.png"/>
-    </div>
-    <a href="/2020-02-28-i-did-a-thing/four.png" itemprop="contentUrl"></a>
-  </figure>
-</div>
-
-<p>DEFCON 27 NovaHackers badge.</p>
-
-
-<div class="box" >
-  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <div class="img">
-      <img itemprop="thumbnail" src="/2020-02-28-i-did-a-thing/five.png" alt="/2020-02-28-i-did-a-thing/five.png"/>
-    </div>
-    <a href="/2020-02-28-i-did-a-thing/five.png" itemprop="contentUrl"></a>
-  </figure>
-</div>
-
-<p>I had some random acrylic laying around with nothing to do, so i made a bunch of these guys to hand out at DEFCON 27.</p>
+Uncomment net.ipv4.ip_forward<span class="o">=</span><span class="m">1</span>
+:wq
+</code></pre></div><h3 id="add-ufw-becore-content">Add UFW becore content</h3>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sudo vim /etc/ufw/before.rules
+</code></pre></div><h4 id="content-3">Content:</h4>
+<p><strong>Note</strong> Change ethernet address (eth0) name as needed!</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback"># Nat table rules
+*nat
+:POSTROUTING ACCEPT [0:0]
+-A POSTROUTING -s 10.8.0.0/8 -o eth0 -j MASQUERADE
+COMMIT
+</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">:wq
+</code></pre></div><h3 id="customize-ufw-forwarding-policy">Customize UFW forwarding policy</h3>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sudo vim /etc/default/ufw
+</code></pre></div><h4 id="content-4">Content:</h4>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nv">DEFAULT_FORWARD_POLICY</span><span class="o">=</span><span class="s2">&#34;ACCEPT&#34;</span>
+</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">:wq
+</code></pre></div><h3 id="open-ufw-ports-for-openvpn">Open UFW ports for OpenVPN</h3>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sudo ufw allow openvpn
+</code></pre></div><h3 id="enable-ufw">Enable UFW</h3>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sudo ufw --force <span class="nb">enable</span>
+</code></pre></div>
 
         
           <div class="blog-tags">
             
               <a href="http://wik-i-pedia.com//tags/general/">general</a>&nbsp;
             
-              <a href="http://wik-i-pedia.com//tags/defcon/">defcon</a>&nbsp;
-            
-              <a href="http://wik-i-pedia.com//tags/laser/">laser</a>&nbsp;
+              <a href="http://wik-i-pedia.com//tags/howto/">howto</a>&nbsp;
             
           </div>
         
@@ -352,13 +426,9 @@ if (!doNotTrack) {
         <ul class="pager blog-pager">
           
             <li class="previous">
-              <a href="http://wik-i-pedia.com/posts/2017-12-29-student-of-the-month-trophy/" data-toggle="tooltip" data-placement="top" title="Student of the Month Trophy">&larr; Previous Post</a>
+              <a href="http://wik-i-pedia.com/posts/2020-02-28-i-did-a-thing/" data-toggle="tooltip" data-placement="top" title="I Did A Thing...or Two">&larr; Previous Post</a>
             </li>
           
-          
-            <li class="next">
-              <a href="http://wik-i-pedia.com/posts/2020-02-29-openvpn-setup/" data-toggle="tooltip" data-placement="top" title="An OpenVPN Setup">Next Post &rarr;</a>
-            </li>
           
         </ul>
       

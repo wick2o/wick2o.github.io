@@ -3,12 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://wik-i-pedia.com/tags/defcon/</loc>
-    <lastmod>2020-02-28T00:00:00+00:00</lastmod>
+    <loc>http://wik-i-pedia.com/posts/2020-02-29-openvpn-setup/</loc>
+    <lastmod>2020-02-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://wik-i-pedia.com/tags/general/</loc>
+    <lastmod>2020-02-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/tags/howto/</loc>
+    <lastmod>2020-02-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/posts/</loc>
+    <lastmod>2020-02-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/tags/</loc>
+    <lastmod>2020-02-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/</loc>
+    <lastmod>2020-02-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://wik-i-pedia.com/tags/defcon/</loc>
     <lastmod>2020-02-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -19,21 +44,6 @@
   
   <url>
     <loc>http://wik-i-pedia.com/tags/laser/</loc>
-    <lastmod>2020-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://wik-i-pedia.com/posts/</loc>
-    <lastmod>2020-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://wik-i-pedia.com/tags/</loc>
-    <lastmod>2020-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://wik-i-pedia.com/</loc>
     <lastmod>2020-02-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -74,11 +84,6 @@
   
   <url>
     <loc>http://wik-i-pedia.com/posts/2014-10-10-shapeoko-vacuum-table/</loc>
-    <lastmod>2014-10-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://wik-i-pedia.com/tags/howto/</loc>
     <lastmod>2014-10-10T00:00:00+00:00</lastmod>
   </url>
   

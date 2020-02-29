@@ -8,10 +8,19 @@
     <language>en-us</language>
     <managingEditor>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</managingEditor>
     <webMaster>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</webMaster>
-    <lastBuildDate>Fri, 10 Oct 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://wik-i-pedia.com/tags/howto/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>An OpenVPN Setup</title>
+      <link>http://wik-i-pedia.com/posts/2020-02-29-openvpn-setup/</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      <author>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</author>
+      <guid>http://wik-i-pedia.com/posts/2020-02-29-openvpn-setup/</guid>
+      <description>&lt;p&gt;Recently I had to comb though 15 different websites in order to figure out what I was doing.  Here are my notes, I hope they are helpful to you.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>A Shapeoko Vacuum Table Design</title>

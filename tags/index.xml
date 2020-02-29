@@ -8,10 +8,28 @@
     <language>en-us</language>
     <managingEditor>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</managingEditor>
     <webMaster>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</webMaster>
-    <lastBuildDate>Fri, 28 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://wik-i-pedia.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>general</title>
+      <link>http://wik-i-pedia.com/tags/general/</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      <author>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</author>
+      <guid>http://wik-i-pedia.com/tags/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>howto</title>
+      <link>http://wik-i-pedia.com/tags/howto/</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      <author>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</author>
+      <guid>http://wik-i-pedia.com/tags/howto/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>defcon</title>
@@ -19,15 +37,6 @@
       <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
       <author>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</author>
       <guid>http://wik-i-pedia.com/tags/defcon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>general</title>
-      <link>http://wik-i-pedia.com/tags/general/</link>
-      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
-      <author>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</author>
-      <guid>http://wik-i-pedia.com/tags/general/</guid>
       <description></description>
     </item>
     
@@ -64,15 +73,6 @@
       <pubDate>Mon, 17 Nov 2014 00:00:00 +0000</pubDate>
       <author>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</author>
       <guid>http://wik-i-pedia.com/tags/review/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>howto</title>
-      <link>http://wik-i-pedia.com/tags/howto/</link>
-      <pubDate>Fri, 10 Oct 2014 00:00:00 +0000</pubDate>
-      <author>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</author>
-      <guid>http://wik-i-pedia.com/tags/howto/</guid>
       <description></description>
     </item>
     
