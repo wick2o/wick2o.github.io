@@ -8,10 +8,29 @@
     <language>en-us</language>
     <managingEditor>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</managingEditor>
     <webMaster>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</webMaster>
-    <lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://wik-i-pedia.com/tags/general/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DEFCON 24 Deodorant Badge</title>
+      <link>http://wik-i-pedia.com/posts/2020-03-01-deodorant-badge/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <author>wick2o@gmail.com (Jaime &#39;WiK&#39; Filson)</author>
+      <guid>http://wik-i-pedia.com/posts/2020-03-01-deodorant-badge/</guid>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;http://wik-i-pedia.com/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://wik-i-pedia.com/2020-03-01-deodorant-badge/one.jpeg&#34; alt=&#34;/2020-03-01-deodorant-badge/one.jpeg&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://wik-i-pedia.com/2020-03-01-deodorant-badge/one.jpeg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;For DEFCON 24 I thought it would be fun to hand out a deodorant badge.  We&amp;rsquo;ve all heard the comment &amp;ldquo;We should hand out deodorant at DEFCON&amp;rdquo; but not many people then go on to do anything about it. My goal was not to cause offensive, but to hand then out to people who asked for one. The hardest part of this build was the hole that the deodorant went in to.  I purchased 12 different travel sized brands in order to make sure they would all fit.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>An OpenVPN Setup</title>
